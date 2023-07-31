@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/FindTheInvisibleCapybara/static/css/main.bae980e4.css",
+    "main.js": "/FindTheInvisibleCapybara/static/js/main.f3830e9b.js",
+    "static/js/787.e8a1d4df.chunk.js": "/FindTheInvisibleCapybara/static/js/787.e8a1d4df.chunk.js",
+    "static/media/capivara.mp3": "/FindTheInvisibleCapybara/static/media/capivara.ac5b35399d44c779e7fa.mp3",
+    "static/media/capivara.png": "/FindTheInvisibleCapybara/static/media/capivara.0f141395879df7957a17.png",
+    "index.html": "/FindTheInvisibleCapybara/index.html",
+    "main.bae980e4.css.map": "/FindTheInvisibleCapybara/static/css/main.bae980e4.css.map",
+    "main.f3830e9b.js.map": "/FindTheInvisibleCapybara/static/js/main.f3830e9b.js.map",
+    "787.e8a1d4df.chunk.js.map": "/FindTheInvisibleCapybara/static/js/787.e8a1d4df.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bae980e4.css",
+    "static/js/main.f3830e9b.js"
+  ]
+}
