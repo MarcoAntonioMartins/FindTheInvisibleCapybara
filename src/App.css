@@ -1,0 +1,121 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.body-game {
+  width: 100vw;
+  height: 100vh;
+}
+
+.container  {
+  width: 100vw;
+  height: 100vh;
+  background: #6C7A89;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.ready_link {
+  border-radius: 12px;
+  font-size: 22px;
+  padding: 12px;
+  border: 0;
+  text-decoration: none;
+  color: black;
+  background-color: white;
+  box-shadow: 1px 1px 1px 0px black;
+  margin-bottom: 20px;
+}
+
+.box  {
+  width: 300px;
+  height: auto;
+  text-align: center;
+  background-color: wheat;
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.details_info{
+  font-size: 0.6rem;
+  margin: 1rem;
+}
+
+.random_capivara {
+  position: absolute;
+  width: 1vw;
+  cursor: pointer;
+  transition: transform 1s ease-in-out;
+  opacity: 0;
+  transition-delay: 0.5s;
+}
+
+.endgame{
+  transition-delay: 5s;
+  transition: transform 5s ease-in-out;
+  width: 20vw !important;
+  cursor: unset;
+  opacity: 1;
+}
+
+.logo_capivara {
+  width: 150px;
+  height: 150px;
+}
+
+@keyframes growAnimation {
+  0% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(2);
+  }
+}
+
+.endgame-animation {
+  animation: growAnimation 2s linear;
+}
