@@ -1,10 +1,10 @@
 import React, { useState, useEffect, useRef } from 'react';
-import Randomcapivara from '../img/capivara.png';
-import CapiSfx from '../audio/capivara.mp3';
+import Randomcapybara from '../img/capybara.png';
+import CapiSfx from '../audio/capybara.mp3';
 
 const Game = () => {
   const audioRef = useRef(null);
-  const capivaraRef = useRef(null);
+  const capybaraRef = useRef(null);
   const [mouseDistance, setMouseDistance] = useState(0);
   const [endGameActive, setEndGameActive] = useState(false);
   const [imagePosition, setImagePosition] = useState({
@@ -13,13 +13,13 @@ const Game = () => {
   });
 
   const handleMouseMovement = (e) => {
-    const capivaraRect = capivaraRef.current.getBoundingClientRect();
+    const capybaraRect = capybaraRef.current.getBoundingClientRect();
     const mouseX = e.clientX;
     const mouseY = e.clientY;
-    const capivaraX = capivaraRect.left + capivaraRect.width / 2;
-    const capivaraY = capivaraRect.top + capivaraRect.height / 2;
+    const capybaraX = capybaraRect.left + capybaraRect.width / 2;
+    const capybaraY = capybaraRect.top + capybaraRect.height / 2;
     const distance = Math.sqrt(
-      Math.pow(mouseX - capivaraX, 2) + Math.pow(mouseY - capivaraY, 2)
+      Math.pow(mouseX - capybaraX, 2) + Math.pow(mouseY - capybaraY, 2)
     );
     setMouseDistance(distance);
   };
@@ -51,7 +51,7 @@ const Game = () => {
   };
 
   const endGame = () => {
-    const imageElement = capivaraRef.current;
+    const imageElement = capybaraRef.current;
     imageElement.onClick = '';
     imageElement.classList.add('endgame');
 
@@ -91,13 +91,13 @@ const Game = () => {
   return (
     <div>
       <img
-        ref={capivaraRef}
-        src={Randomcapivara}
-        alt="Capivara"
+        ref={capybaraRef}
+        src={Randomcapybara}
+        alt="Capybara"
         onClick={endGame}
         onMouseMove={handleMouseMovement}
-        className={"random_capivara ${endGameActive ? 'endgame-animation' : ''}"}
-        id="random_capivara"
+        className={"random_capybara ${endGameActive ? 'endgame-animation' : ''}"}
+        id="random_capybara"
         style={{
           top: `${imagePosition.y}px`,
           left: `${imagePosition.x}px`,
