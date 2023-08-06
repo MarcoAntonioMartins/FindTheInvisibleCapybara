@@ -1,6 +1,6 @@
 # Find The Invisible Capybara
 # Introduction
-This game is an own version of https://findtheinvisiblecow.com/, game reels a friend sent me on instagram.
+This game is an own version of https://findtheinvisiblecow.com/, a friend sent a reels of the game on instagram.
 
 This project is for study purposes and fun, enjoy 😊
 
