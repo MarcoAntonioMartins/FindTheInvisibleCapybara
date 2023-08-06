@@ -1,4 +1,8 @@
 # Find The Invisible Capybara
+
+# Branch Development
+This branch is intended to leave some details for improvement and study.
+
 # Introduction
 This game is an own version of https://findtheinvisiblecow.com/, a friend sent a reels of the game on instagram.
 
