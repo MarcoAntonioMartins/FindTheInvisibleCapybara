@@ -1,17 +1,18 @@
 {
   "files": {
-    "main.css": "/FindTheInvisibleCapybara/static/css/main.bae980e4.css",
-    "main.js": "/FindTheInvisibleCapybara/static/js/main.f3830e9b.js",
+    "main.css": "/FindTheInvisibleCapybara/static/css/main.8bcd1db9.css",
+    "main.js": "/FindTheInvisibleCapybara/static/js/main.e1cb9667.js",
     "static/js/787.e8a1d4df.chunk.js": "/FindTheInvisibleCapybara/static/js/787.e8a1d4df.chunk.js",
-    "static/media/capivara.mp3": "/FindTheInvisibleCapybara/static/media/capivara.ac5b35399d44c779e7fa.mp3",
-    "static/media/capivara.png": "/FindTheInvisibleCapybara/static/media/capivara.0f141395879df7957a17.png",
+    "static/media/fundo_capybara.png": "/FindTheInvisibleCapybara/static/media/fundo_capybara.26cda5def0595defce03.png",
+    "static/media/capybara.mp3": "/FindTheInvisibleCapybara/static/media/capybara.ac5b35399d44c779e7fa.mp3",
+    "static/media/capybara.png": "/FindTheInvisibleCapybara/static/media/capybara.0f141395879df7957a17.png",
     "index.html": "/FindTheInvisibleCapybara/index.html",
-    "main.bae980e4.css.map": "/FindTheInvisibleCapybara/static/css/main.bae980e4.css.map",
-    "main.f3830e9b.js.map": "/FindTheInvisibleCapybara/static/js/main.f3830e9b.js.map",
+    "main.8bcd1db9.css.map": "/FindTheInvisibleCapybara/static/css/main.8bcd1db9.css.map",
+    "main.e1cb9667.js.map": "/FindTheInvisibleCapybara/static/js/main.e1cb9667.js.map",
     "787.e8a1d4df.chunk.js.map": "/FindTheInvisibleCapybara/static/js/787.e8a1d4df.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.bae980e4.css",
-    "static/js/main.f3830e9b.js"
+    "static/css/main.8bcd1db9.css",
+    "static/js/main.e1cb9667.js"
   ]
 }
