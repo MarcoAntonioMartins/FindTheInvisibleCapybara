@@ -37,6 +37,7 @@ const Game = () => {
   }, [mouseDistance]);
 
   useEffect(() => {
+    document.getElementById("audio-element").volume = 0;
     setImagePosition({
       x: Math.random() * (window.innerWidth - 100),
       y: Math.random() * (window.innerHeight - 100),
