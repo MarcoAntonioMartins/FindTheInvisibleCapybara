@@ -27,7 +27,7 @@ const Game = () => {
   useEffect(() => {
     document.addEventListener('mousemove', handleMouseMovement);
     if (audioRef.current) {
-      const maxDistance = window.innerWidth * 0.75;
+      const maxDistance = window.innerHeight * 0.75;
       const volume = Math.max(1 - mouseDistance / maxDistance, 0);
       audioRef.current.volume = volume;
     }
