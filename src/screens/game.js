@@ -89,7 +89,7 @@ const Game = () => {
     redirectToOtherScreen();
   };
   return (
-    <div>
+    <div className='lake'>
       <img
         ref={capybaraRef}
         src={Randomcapybara}

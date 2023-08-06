@@ -80,6 +80,13 @@ body {
   align-items: center;
 }
 
+.lake {
+  background-image: url("./img/fundo_capybara.png");
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+}
+
 .details_info{
   font-size: 0.6rem;
   margin: 1rem;
@@ -87,7 +94,7 @@ body {
 
 .random_capybara {
   position: absolute;
-  width: 1vw;
+  width: 1.8vw;
   cursor: pointer;
   transition: transform 1s ease-in-out;
   opacity: 0;
