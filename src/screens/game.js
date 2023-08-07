@@ -1,6 +1,7 @@
 import React, { useState, useEffect, useRef } from 'react';
 import Randomcapybara from '../img/capybara.png';
 import CapiSfx from '../audio/capybara.mp3';
+import logo_git from '../img/github_icon.png';
 
 const Game = () => {
   const audioRef = useRef(null);
@@ -91,6 +92,7 @@ const Game = () => {
   };
   return (
     <div className='lake'>
+      <div class="credit">Credits: <a href="https://github.com/MarcoAntonioMartins/FindTheInvisibleCapybara" target="_blank" class="link_credit"><img src={logo_git} className="img_link_credit"/> github.com</a></div>
       <img
         ref={capybaraRef}
         src={Randomcapybara}

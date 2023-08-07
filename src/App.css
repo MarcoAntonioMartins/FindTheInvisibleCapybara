@@ -68,6 +68,22 @@ body {
   box-shadow: 1px 1px 1px 0px black;
 }
 
+.credit {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  padding: 5px;
+  background-color: white;
+  border-top-left-radius: 10px;
+}
+
+.link_credit {
+  color: blue;
+}
+.img_link_credit {
+  height: 15px;
+}
+
 .box  {
   width: 300px;
   height: auto;
