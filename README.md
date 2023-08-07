@@ -4,7 +4,7 @@ This game is an own version of https://findtheinvisiblecow.com/, a friend sent a
 
 This project is for study purposes and fun, enjoy 😊
 
-🎮 https://github.com/MarcoAntonioMartins/FindTheInvisibleCapybara 🎮
+🎮 https://marcoantoniomartins.github.io/FindTheInvisibleCapybara/ 🎮
 
 # Install
 
